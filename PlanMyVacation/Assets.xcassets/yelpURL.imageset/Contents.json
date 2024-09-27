@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "internet+logo+page+screen+web+yelp+icon-1320192729841251567.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

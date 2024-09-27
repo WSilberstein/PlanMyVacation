@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ottawa-ontario-canada-september-vertical-frame-tourists-heading-to-central-block-towers-world-parliament-hill-151788656.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -7,7 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A40255D0273DC2C20033501E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40255CF273DC2C20033501E /* HomePage.swift */; };
+		84CEA141275577C000083906 /* FavoritedCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEA140275577C000083906 /* FavoritedCity.swift */; };
+		84CEA1432755920100083906 /* FavoritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CEA1422755920100083906 /* FavoritesController.swift */; };
+		DF070557275D780000683747 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF070556275D780000683747 /* TabBarController.swift */; };
+		DF12BF5F2757FB35003E1A0E /* CustomModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12BF5E2757FB35003E1A0E /* CustomModalViewController.swift */; };
+		DF12BF6127581A29003E1A0E /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF12BF6027581A29003E1A0E /* Reviews.swift */; };
+		DF3BA3EB274B49490088D8D6 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3BA3EA274B49490088D8D6 /* DetailedViewController.swift */; };
+		DF4A958327548E9B005ABBB8 /* favData.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF4A958227548E9B005ABBB8 /* favData.plist */; };
+		DF5BDE0A275346290015B367 /* Explore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5BDE09275346290015B367 /* Explore.swift */; };
+		DFC1C79E275949F300674FEB /* ReviewModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC1C79D275949F300674FEB /* ReviewModalView.swift */; };
+		DFF14F5E27409E710028B82A /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF14F5D27409E710028B82A /* Restaurants.swift */; };
+		DFF14F6027409F160028B82A /* FetchRestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF14F5F27409F160028B82A /* FetchRestaurantData.swift */; };
+		DFF14F662740A4320028B82A /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF14F652740A4320028B82A /* CustomCell.swift */; };
+		DFF14F682740A4780028B82A /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFF14F672740A4780028B82A /* CustomCell.xib */; };
+		E18F855E2758017D00B11EFA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F855D2758017D00B11EFA /* ProfileViewController.swift */; };
+		E18F85662758283400B11EFA /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F85652758283400B11EFA /* EditProfileViewController.swift */; };
+		E18F856A27583C5700B11EFA /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F856927583C5700B11EFA /* ProfileController.swift */; };
+		E18F856C27583EDA00B11EFA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18F856B27583EDA00B11EFA /* Profile.swift */; };
 		E1DF17B9273C6ABE005A5951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF17B8273C6ABE005A5951 /* AppDelegate.swift */; };
 		E1DF17BB273C6ABE005A5951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF17BA273C6ABE005A5951 /* SceneDelegate.swift */; };
 		E1DF17BD273C6ABE005A5951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DF17BC273C6ABE005A5951 /* ViewController.swift */; };
@@ -36,7 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A40255CF273DC2C20033501E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		84CEA140275577C000083906 /* FavoritedCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedCity.swift; sourceTree = "<group>"; };
+		84CEA1422755920100083906 /* FavoritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesController.swift; sourceTree = "<group>"; };
+		DF070556275D780000683747 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		DF12BF5E2757FB35003E1A0E /* CustomModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModalViewController.swift; sourceTree = "<group>"; };
+		DF12BF6027581A29003E1A0E /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		DF3BA3EA274B49490088D8D6 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		DF4A958027548E35005ABBB8 /* favoriteListClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteListClass.swift; sourceTree = "<group>"; };
+		DF4A958227548E9B005ABBB8 /* favData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = favData.plist; sourceTree = "<group>"; };
+		DF5BDE09275346290015B367 /* Explore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explore.swift; sourceTree = "<group>"; };
+		DFC1C79D275949F300674FEB /* ReviewModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewModalView.swift; sourceTree = "<group>"; };
+		DFF14F5D27409E710028B82A /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		DFF14F5F27409F160028B82A /* FetchRestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRestaurantData.swift; sourceTree = "<group>"; };
+		DFF14F652740A4320028B82A /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		DFF14F672740A4780028B82A /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		E18F855D2758017D00B11EFA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E18F85652758283400B11EFA /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		E18F856927583C5700B11EFA /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		E18F856B27583EDA00B11EFA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E1DF17B5273C6ABE005A5951 /* PlanMyVacation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanMyVacation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DF17B8273C6ABE005A5951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1DF17BA273C6ABE005A5951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,14 +134,31 @@
 		E1DF17B7273C6ABE005A5951 /* PlanMyVacation */ = {
 			isa = PBXGroup;
 			children = (
-				A40255CF273DC2C20033501E /* HomePage.swift */,
-				E1DF17B8273C6ABE005A5951 /* AppDelegate.swift */,
 				E1DF17BA273C6ABE005A5951 /* SceneDelegate.swift */,
+				E1DF17B8273C6ABE005A5951 /* AppDelegate.swift */,
 				E1DF17BC273C6ABE005A5951 /* ViewController.swift */,
+				E18F855D2758017D00B11EFA /* ProfileViewController.swift */,
+				84CEA1422755920100083906 /* FavoritesController.swift */,
 				E1DF17BE273C6ABE005A5951 /* Main.storyboard */,
+				E18F85652758283400B11EFA /* EditProfileViewController.swift */,
 				E1DF17C1273C6ABF005A5951 /* Assets.xcassets */,
 				E1DF17C3273C6ABF005A5951 /* LaunchScreen.storyboard */,
 				E1DF17C6273C6ABF005A5951 /* Info.plist */,
+				DFF14F5D27409E710028B82A /* Restaurants.swift */,
+				DFF14F5F27409F160028B82A /* FetchRestaurantData.swift */,
+				DFF14F672740A4780028B82A /* CustomCell.xib */,
+				DFF14F652740A4320028B82A /* CustomCell.swift */,
+				84CEA140275577C000083906 /* FavoritedCity.swift */,
+				DF3BA3EA274B49490088D8D6 /* DetailedViewController.swift */,
+				DF5BDE09275346290015B367 /* Explore.swift */,
+				DF4A958027548E35005ABBB8 /* favoriteListClass.swift */,
+				DF4A958227548E9B005ABBB8 /* favData.plist */,
+				DF12BF5E2757FB35003E1A0E /* CustomModalViewController.swift */,
+				DF12BF6027581A29003E1A0E /* Reviews.swift */,
+				E18F856927583C5700B11EFA /* ProfileController.swift */,
+				E18F856B27583EDA00B11EFA /* Profile.swift */,
+				DFC1C79D275949F300674FEB /* ReviewModalView.swift */,
+				DF070556275D780000683747 /* TabBarController.swift */,
 			);
 			path = PlanMyVacation;
 			sourceTree = "<group>";
@@ -236,7 +286,9 @@
 			files = (
 				E1DF17C5273C6ABF005A5951 /* LaunchScreen.storyboard in Resources */,
 				E1DF17C2273C6ABF005A5951 /* Assets.xcassets in Resources */,
+				DFF14F682740A4780028B82A /* CustomCell.xib in Resources */,
 				E1DF17C0273C6ABE005A5951 /* Main.storyboard in Resources */,
+				DF4A958327548E9B005ABBB8 /* favData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +313,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18F85662758283400B11EFA /* EditProfileViewController.swift in Sources */,
+				DF12BF6127581A29003E1A0E /* Reviews.swift in Sources */,
+				DF5BDE0A275346290015B367 /* Explore.swift in Sources */,
+				DF070557275D780000683747 /* TabBarController.swift in Sources */,
+				DF3BA3EB274B49490088D8D6 /* DetailedViewController.swift in Sources */,
+				DFF14F6027409F160028B82A /* FetchRestaurantData.swift in Sources */,
+				E18F856A27583C5700B11EFA /* ProfileController.swift in Sources */,
 				E1DF17BD273C6ABE005A5951 /* ViewController.swift in Sources */,
+				DF12BF5F2757FB35003E1A0E /* CustomModalViewController.swift in Sources */,
 				E1DF17B9273C6ABE005A5951 /* AppDelegate.swift in Sources */,
+				E18F856C27583EDA00B11EFA /* Profile.swift in Sources */,
+				E18F855E2758017D00B11EFA /* ProfileViewController.swift in Sources */,
 				E1DF17BB273C6ABE005A5951 /* SceneDelegate.swift in Sources */,
-				A40255D0273DC2C20033501E /* HomePage.swift in Sources */,
+				84CEA141275577C000083906 /* FavoritedCity.swift in Sources */,
+				DFF14F5E27409E710028B82A /* Restaurants.swift in Sources */,
+				DFF14F662740A4320028B82A /* CustomCell.swift in Sources */,
+				DFC1C79E275949F300674FEB /* ReviewModalView.swift in Sources */,
+				84CEA1432755920100083906 /* FavoritesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Z2TC6LFVT;
+				DEVELOPMENT_TEAM = HH6V92GJ83;
 				INFOPLIST_FILE = PlanMyVacation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,7 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Z2TC6LFVT;
+				DEVELOPMENT_TEAM = HH6V92GJ83;
 				INFOPLIST_FILE = PlanMyVacation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -479,7 +545,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Z2TC6LFVT;
+				DEVELOPMENT_TEAM = HH6V92GJ83;
 				INFOPLIST_FILE = PlanMyVacationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -501,7 +567,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Z2TC6LFVT;
+				DEVELOPMENT_TEAM = HH6V92GJ83;
 				INFOPLIST_FILE = PlanMyVacationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -522,7 +588,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Z2TC6LFVT;
+				DEVELOPMENT_TEAM = HH6V92GJ83;
 				INFOPLIST_FILE = PlanMyVacationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -542,7 +608,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2Z2TC6LFVT;
+				DEVELOPMENT_TEAM = HH6V92GJ83;
 				INFOPLIST_FILE = PlanMyVacationUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

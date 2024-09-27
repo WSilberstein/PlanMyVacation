@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "yaletown-towers-sunrise-vancouver-vertical-golden-reflects-off-condominiums-downtown-british-columbia-canada-34496802.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "1-st-louis-arch-with-old-courthouse-panoramic-images.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
